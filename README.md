@@ -1,6 +1,6 @@
-# cpp-alloctrack: Light-weight Memory Allocation Tracker Library
+# cpp-alloctrack: Light-weight Dynamic Memory Allocation Tracker Library for C++
 
-This python library implements the State Vector Sync (SVS) protocol to synchronise states between multiple clients over NDN for distributed realtime applications that is originally implemented and designed in c++ [here](https://github.com/named-data/ndn-svs).
+This C++ library takes advantage of the fact that C++ uses a different methods for dynnamic memory allocations than C and of the fact that C++ builds upon C.
 
 cpp-alloctrack aims to use only the basic libraries included in most if not all cpp compilers for it's implementation.
 
@@ -8,9 +8,7 @@ cpp-alloctrack aims to use only the basic libraries included in most if not all 
 
 ### Prerequisites
 
-* [python-ndn](https://python-ndn.readthedocs.io/en/latest/src/installation.html)
-
-* [nfd](https://named-data.net/doc/NFD/0.5.0/INSTALL.html)
+* A C++ Compiler, [recommended installation](https://hank.feild.org/courses/common/cpp-compiler.html#compiler-linux)
 
 ### Examples
 
