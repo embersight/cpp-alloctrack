@@ -1,6 +1,8 @@
 # cpp-alloctrack: Light-weight Dynamic Memory Allocation Tracker Library for C++
 
-This C++ library takes advantage of the fact that C++ uses a different methods for dynnamic memory allocations than C and of the fact that C++ builds upon C.
+Pointers can make memory hard to track. In complex programs, it can daunting to find memory leaks. This allocation library is designed to combat these struggles.
+
+This C++ library takes advantage of the fact that C++ uses a different methods for dynnamically allocating memory than C and of the fact that C++ builds upon C. It is designed to be very compact and simple. To put plainly, one just has to drag the library file to a currently working environment, include the file in the program's driver file, and run desired allocation commands.
 
 cpp-alloctrack aims to use only the basic libraries included in most if not all cpp compilers for it's implementation.
 
