@@ -16,20 +16,7 @@ To put plainly, one just has to drag the library file to a currently working env
 
 ### Examples
 
-To try out the chat demo application, follow the below steps.
 
-To create a chat client, simply run this in the home directory:
-```
-python3 examples/chat_node.py -n NODE_NAME [-h] [-gp GROUP_PREFIX]
-```
-You may create as many of these as possible and all clients will sync up using SVS.
-
-Before you run the program, you must register the group prefix as multi-cast (even if you did not specifically define the group prefix):
-```
-nfdc strategy set <group-prefix> /localhost/nfd/strategy/multicast/%FD%03
-```
-The default group prefix is ['/svs'] for our examples.
-More on setting different strategies (like mutli-cast) for different prefixes can be found [here](https://named-data.net/doc/NFD/current/manpages/nfdc-strategy.html).
 
 
 ## License and Authors
