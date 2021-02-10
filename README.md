@@ -8,7 +8,7 @@ cpp-alloctrack aims to use only the basic libraries included in most if not all 
 
 ## Installation
 
-To put plainly, one just has to drag the library file [`alloctrack.hpp`](alloctrack/alloctrack.hpp) to a currently working environment, include the file in the program's driver file, and run desired allocation commands. Best practice is include this file after any built-in C++ libraries but before any self-made libraries as built-in libraries may trigger a false memory leak or configuration error.
+To put plainly, one just has to drag the library file [`alloctrack.hpp`](alloctrack/alloctrack.hpp) to a currently working environment, include the file in the program's driver file, and run desired allocation commands. Best practice is include this file after any built-in C++ libraries but before any self-made libraries as built-in libraries may trigger a false memory leak or configuration error (see [`example.cpp`](alloctrack/example.cpp) for an example of this).
 
 ### Prerequisites
 
