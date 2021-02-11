@@ -1,3 +1,10 @@
+/*
+    Light Weight Dynamic Memory Allocation Tracker Library
+    Author:  Justin C Presley
+    Github:  https://github.com/embersight
+    Contact: justincpresley@gmail.com
+*/
+
 // These are the built-in libraries.
 #include <iostream>
 #include <string>
