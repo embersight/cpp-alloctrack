@@ -1,7 +1,13 @@
+// These are the built-in libraries.
 #include <iostream>
 #include <string>
 
+// This is the ideal spot to place the tracker.
 #include "alloctrack.hpp"
+
+// These are fake self-built libraries.
+// #include "point.hpp"
+// #include "map.hpp"
 
 struct point {
   int x;
