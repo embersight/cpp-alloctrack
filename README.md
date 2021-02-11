@@ -30,7 +30,7 @@ g++ -o TEST example.cpp
 
 ## Application Programming Interface (API)
 
-More commands will be added and should be added.
+More commands should be added.
 
 Currently, these are the following commands (and their returns) that you can run, all of these commands are in the namespace `mem`.
 
